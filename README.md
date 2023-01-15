@@ -8,10 +8,12 @@ Its features are:
 - MVVM
 - Dependency injection with Koin
 - Unit testing
+- Light/Dark theme
 
-Has been used
+I have used:
 - Coroutines
 - Flow
+- Android Styles and Themes
 - View Binding (_Android Jetpack_)
 - Navigation (_Android Jetpack_)
 - Retrofit
