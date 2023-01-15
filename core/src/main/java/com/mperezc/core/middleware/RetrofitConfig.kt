@@ -25,12 +25,12 @@ open class RetrofitConfig {
             .baseUrl(baseUrl)
             .addConverterFactory(GsonConverterFactory.create())
 
-        //if (BuildConfig.DEBUG) {
-            val interceptor = HttpLoggingInterceptor()
-            interceptor.setLevel(HttpLoggingInterceptor.Level.BODY)
-            val client: OkHttpClient = builder!!.addInterceptor(interceptor).build()
-            retrofitBuilder.client(client)
-        //}
+        // Only for debug
+        //val interceptor = HttpLoggingInterceptor()
+        //interceptor.setLevel(HttpLoggingInterceptor.Level.BODY)
+        //val client: OkHttpClient = builder!!.addInterceptor(interceptor).build()
+        //retrofitBuilder.client(client)
+
 
         return retrofitBuilder.build()
     }

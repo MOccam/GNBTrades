@@ -18,15 +18,6 @@ class MiddlewareService(
         request: suspend () -> Response<T>
     ): RequestResult<T> {
 
-        /*if (!isNetworkAvailable()) {
-            return RequestResult.error(
-                RequestError(
-                    ErrorCodes.NO_NETWORK.value,
-                    null
-                )
-            )
-        }*/
-
         return try {
             val result = request.invoke()
             if (result.isSuccessful) {
