@@ -1,0 +1,16 @@
+plugins {
+    id 'kotlin'
+}
+
+dependencies {
+
+    //Local dependencies
+    api project(path: ':core')
+
+    //Koin
+    implementation "io.insert-koin:koin-core:$koin_version"
+
+    //Retrofit Dependencies
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
+}

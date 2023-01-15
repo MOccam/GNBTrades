@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="next_arrow">32dp</dimen>
+
+    <!--    TEXT    -->
+    <dimen name="product_list_name">18sp</dimen>
+    <dimen name="error_text">20sp</dimen>
+
+    <dimen name="product_detail_name">24sp</dimen>
+    <dimen name="product_detail_data">18sp</dimen>
+
+    <dimen name="movement_detail_amount">14sp</dimen>
+    <dimen name="movement_detail_original_amount">12sp</dimen>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorTertiary"
+            android:textSize="@dimen/movement_detail_amount"
+            android:layout_marginHorizontal="8dp"
+            tools:text="Mdetail_amount"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorTertiary"
+            android:textSize="@dimen/product_detail_data"
+            tools:text="|"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvOriginalAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorTertiary"
+            android:textSize="@dimen/movement_detail_original_amount"
+            android:layout_marginHorizontal="8dp"
+            tools:text="(Original amount: %1$d %2Ss)"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    
+</layout>
