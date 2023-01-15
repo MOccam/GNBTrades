@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GNBTrades</string>
+
+    <string name="detail_movements_count">Movements: %1$d</string>
+    <string name="detail_total_amount">Total Amount: %1$s %2$s</string>
+    <string name="error_try_again">An error occurred.\nTry again by swiping</string>
+
+    <string name="detail_amount">Amount: %1$s %2$s</string>
+    <string name="detail_original_currency">(Original amount: %1$s %2$s)</string>
+    <string name="error_detail_view">An error occurred.\nReturn to main page</string>
+
+    <!--    Test Texts  -->
+    <string name="lore_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+</resources>
